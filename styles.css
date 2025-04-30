@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.html{
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    pointer-events: none; 
+    --rem: 16;
+}
