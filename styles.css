@@ -385,3 +385,31 @@ body {
 .footer-links a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .about-columns {
+        flex-direction: column;
+    }
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        justify-content: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
