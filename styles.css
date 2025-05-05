@@ -7,6 +7,9 @@
 body {
     background-color: #eee8da;
 }
+a {
+    text-decoration: none;
+}
 .navbar {
     display: flex;
     position: fixed;
