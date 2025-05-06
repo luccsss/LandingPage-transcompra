@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Transcompra - Inicio</title>
+  <link rel="stylesheet" href="styles2.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>Transcompra</h1>
+    <nav>
+        <a href="home.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="perfil.html">Mi Perfil</a>
+        <a href="cerrar.html">Cerrar Sesión</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>¡Bienvenido a Transcompra!</h2>
+    <p>Explora nuestras ofertas y encuentra lo que necesitas al mejor precio.</p>
+  </section>
+
+  <section class="product-gallery">
+    <h2>Productos Destacados</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://juntozstgsrvproduction.blob.core.windows.net/default-blob-images/orig_Unidad-210033_768010.jpg" alt="Arroz">
+        <h3>Arroz Costeño 5kg</h3>
+        <p>S/ 21.50</p>
+        <button onclick="comprar('Arroz Costeño 5kg - S/21.50')">Comprar</button>
+      </div>
+      <div class="product-card">
+        <img src="https://plazavea.vteximg.com.br/arquivos/ids/24844118-450-450/358217.jpg?v=638811125466030000" alt="Leche">
+        <h3>Leche Gloria 1L</h3>
+        <p>S/ 4.20</p>
+        <button onclick="comprar('Leche Gloria 1L - S/4.20')">Comprar</button>
+      </div>
+      <div class="product-card">
+        <img src="https://mividaenundulce.com/wp-content/uploads/2020/04/dsc_3101.jpg" alt="Pan">
+        <h3>Pan Francés (12 unidades)</h3>
+        <p>S/ 3.50</p>
+        <button onclick="comprar('Pan Francés (12 u) - S/3.50')">Comprar</button>
+      </div>
+      <div class="product-card">
+        <img src="https://mercury.vtexassets.com/arquivos/ids/8617030/image-5b43357ca57f4424a2e7d31c4b6fa8c3.jpg?v=637952172810770000" alt="Aceite">
+        <h3>Aceite Primor 1L</h3>
+        <p>S/ 8.90</p>
+        <button onclick="comprar('Aceite Primor 1L - S/8.90')">Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Transcompra. Todos los derechos reservados.
+  </footer>
+
+  <script>
+    function comprar(producto) {
+      alert(`Has agregado "${producto}" al carrito.`);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Transcompra - Productos</title>
+  <link rel="stylesheet" href="styles2.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>Transcompra</h1>
+    <nav>
+        <a href="home.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="perfil.html">Mi Perfil</a>
+        <a href="cerrar.html">Cerrar Sesión</a>
+    </nav>
+  </header>
+
+  <section class="product-gallery">
+    <h2>Todos los Productos</h2>
+    <div class="product-grid">
+      
+      <div class="product-card">
+        <img src="https://juntozstgsrvproduction.blob.core.windows.net/default-blob-images/orig_Unidad-210033_768010.jpg" alt="Arroz">
+        <h3>Arroz Costeño 5kg</h3>
+        <p>S/ 21.50</p>
+        <button onclick="comprar('Arroz Costeño 5kg - S/21.50')">Comprar</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://plazavea.vteximg.com.br/arquivos/ids/24844118-450-450/358217.jpg?v=638811125466030000" alt="Leche">
+        <h3>Leche Gloria 1L</h3>
+        <p>S/ 4.20</p>
+        <button onclick="comprar('Leche Gloria 1L - S/4.20')">Comprar</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://mividaenundulce.com/wp-content/uploads/2020/04/dsc_3101.jpg" alt="Pan">
+        <h3>Pan Francés (12 unidades)</h3>
+        <p>S/ 3.50</p>
+        <button onclick="comprar('Pan Francés (12 u) - S/3.50')">Comprar</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://mercury.vtexassets.com/arquivos/ids/8617030/image-5b43357ca57f4424a2e7d31c4b6fa8c3.jpg?v=637952172810770000" alt="Aceite">
+        <h3>Aceite Primor 1L</h3>
+        <p>S/ 8.90</p>
+        <button onclick="comprar('Aceite Primor 1L - S/8.90')">Comprar</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://static.wixstatic.com/media/ad193d_39936e3be04d4c71bbe76c388d962fab~mv2.jpg/v1/fill/w_476,h_358,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ad193d_39936e3be04d4c71bbe76c388d962fab~mv2.jpg" alt="Huevos">
+        <h3>Huevo de gallina (15 und)</h3>
+        <p>S/ 7.80</p>
+        <button onclick="comprar('Huevos (15 und) - S/7.80')">Comprar</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://vegaperu.vtexassets.com/arquivos/ids/156871/7754137000039.jpg?v=637618916001900000" alt="Azúcar">
+        <h3>Azúcar Rubia 1kg</h3>
+        <p>S/ 3.60</p>
+        <button onclick="comprar('Azúcar Rubia 1kg - S/3.60')">Comprar</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_664897-MLC52299997528_112022-O.webp" alt="Sal">
+        <h3>Sal de mesa Lobos 1kg</h3>
+        <p>S/ 1.30</p>
+        <button onclick="comprar('Sal de mesa 1kg - S/1.30')">Comprar</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://media.falabella.com/tottusPE/42006415_1/w=1500,h=1500,fit=pad" alt="Fideos">
+        <h3>Fideos Don Vittorio 500g</h3>
+        <p>S/ 2.80</p>
+        <button onclick="comprar('Fideos Don Vittorio 500g - S/2.80')">Comprar</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://promart.vteximg.com.br/arquivos/ids/8725249-1000-1000/130955.jpg?v=638785317038230000" alt="Detergente">
+        <h3>Detergente Bolívar 1kg</h3>
+        <p>S/ 7.20</p>
+        <button onclick="comprar('Detergente Bolívar 1kg - S/7.20')">Comprar</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://www.elite.com.pe/assets/uploads/images/25eca-d099c-elite-suave-y-resistente-dh-20m-x4-min.png" alt="Papel Higiénico">
+        <h3>Papel Higiénico Suave x4</h3>
+        <p>S/ 6.90</p>
+        <button onclick="comprar('Papel Higiénico x4 - S/6.90')">Comprar</button>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Transcompra. Todos los derechos reservados.
+  </footer>
+
+  <script>
+    function comprar(producto) {
+      alert(`Has agregado "${producto}" al carrito.`);
+    }
+  </script>
+</body>
+</html>

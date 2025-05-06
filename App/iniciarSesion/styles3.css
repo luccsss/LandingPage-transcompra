@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.navbar a {
+    text-decoration: none;
+}
+body {
+    background-color: #eee8da;
+}
+.navbar {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10%;
+    background-color: #eee8da;
+    border-bottom: 1px solid #d1bfa5;
+}
+.navbar img {
+    width: 100px;
+}
+.navbar a {
+    width: 100px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+/* Boton nav */
+.cta-button1 {
+    background-color: #F05454;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.cta-button1:hover {
+    background-color: #ca1717;
+}
+/* Registro */
+
+    .iniciarSesion {
+        padding: 60px 10%;
+        padding-top: 170px;
+        background-color: #eee8da;
+        background-color: #F5B351;
+        text-align: center;
+        height: 1000px;
+    }
+    .iniciarSesion h2 {
+        text-align: center;
+        font-size: 32px;
+        margin-top: 190px;
+        margin-bottom: 25px;
+        color: #000;
+    }
+    
+    .iniciarSesion-form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        max-width: 600px;
+        margin: 15px auto;
+    }
+    
+    .iniciarSesion-form input, 
+    .iniciarSesion-form textarea {
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: #ffffff;
+        color: black;
+    }   
+    
+    .iniciarSesion-form textarea {
+        height: 150px;
+    }
+    
+    .iniciarSesion-form button {
+        background-color: #F05454;
+        color: white;
+        padding: 12px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        width: 150px;
+        margin: 0 auto;
+    }
+    .iniciarSesion-form button:hover {
+        background-color: #ca1717;
+    }    
+
+/*footer*/
+.footer {
+    background-color: #eee8da;
+    padding: 25px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+.footer-logo img {
+    height: 80px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #000;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .about-columns {
+        flex-direction: column;
+    }
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        justify-content: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

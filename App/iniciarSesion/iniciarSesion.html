@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcompra - Plataforma Digital para tus compras de la bodega</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <a href="../index2.html"><img src="../../imagenes/logo2.png" alt="Transcompra Logo" class="logo-image" />            </a>
+            <a href="../index2.html" class="logo">Transcompra</a>
+        </div>
+        <div>
+            <a href="../registro/registrarseProveedor.html">
+                <button class="cta-button1">Registrar bodega</button>
+            </a>
+            <a href="../registro/registrarseComprador.html">
+                <button class="cta-button1">Registrar cliente</button>
+            </a>
+        </div>
+    </nav>
+
+    <section id="iniciarSesion" class="iniciarSesion">
+        <h2>¡Bienvenido!</h2>
+        <div>
+            <p>¿Aún no tienes cuenta para comprar? <a href="../registro/registrarseComprador.html">Registrar cliente</a></p>
+            <p>¿Eres proveedor y no tienes cuenta? <a href="../registro/registrarseProveedor.html">Regístrar bodega</a></p>
+        </div>
+        <form id="iniciarSesion-form" class="iniciarSesion-form">
+            <input type="email" placeholder="Correo" required>
+            <input type="password" placeholder="Contraseña" required>
+            <select name="Tipo de usuario" id="UserType" form="iniciarSesion-form" placeholder="Tipo de usuario" required>
+                <option value="Proveedor">Proveedor</option>
+                <option value="Comprador">Comprador</option>
+            </select>
+            <div class="recuperar-contrasena">
+                <a href="#">¿Olvidaste tu contraseña?</a>
+            </div>
+            <a href="../home.html">
+                <button type="submit">Iniciar Sesión</button>
+            </a>
+        </form>
+    </section>
+
+    
+    <footer class="footer">
+        <div class="footer-logo">
+            <img src="../../imagenes/logo2.png" alt="Transcompra Logo"/>
+        </div>
+        <div class="social-icons">
+            <a href="#"><span>f</span></a>
+            <a href="#"><span>in</span></a>
+            <a href="#"><span>t</span></a>
+        </div>
+        <div class="footer-links">
+            <a href="#">Política de privacidad</a>
+            <a href="#">Política de cookies</a>
+            <a href="#">Aviso Legal</a>
+        </div>
+        <p>© 2025 LPI Media. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
